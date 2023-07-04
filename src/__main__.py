@@ -106,7 +106,7 @@ class App:
             slider.set(curr_val + 1)
 
         if event.type == "3":
-            print("updating")
+            # key release event
             self.update_edges()
 
     def handle_slider_clicked(self, name):
